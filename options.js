@@ -12,7 +12,7 @@ function save_options() {
   }, function() {
     // Update status to let user know options were saved.
     console.log("Saved!");
-    $('#status').text('Options saved as'+ firstFontId); 
+    $('#status').text('Options saved as '+ firstFontId + "and " + secondFontId); 
     setTimeout(function() {
       $('#status').text('');
     }, 750);

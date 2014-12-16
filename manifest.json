@@ -1,7 +1,7 @@
 {
-  "name": "Keyboard Pin",
+  "name": "oneclick-fontchanger",
   "version": "0.1",
-  "description": "Creates a keyboard shortcut (Ctrl + ;) to toggle fonts",
+  "description": "Let you switch between two fonts via keyboard shortcuts. For convnience,you can use 2 keyboard shortcuts(default Ctrl+Shift+1 and Ctrl+Shift+1). The extension was originally written to solve the problem of quickly changing between Zawgyi-One and Myanmar Unicode. Please feel free to post suggestion and comments.",
   "background": {
     "persistent": true,
     "scripts": [
@@ -20,7 +20,7 @@
         "mac": "Command+Shift+1",
         "linux": "Ctrl+Shift+1"
         },
-      "description": "Change Font Setting to Zawgyi"
+      "description": "Change Font Setting to First Font"
     },
     "second_font": {
       "suggested_key": {
@@ -28,7 +28,7 @@
         "mac": "Command+Shift+2",
         "linux": "Ctrl+Shift+2"
         },
-      "description": "Change Font Setting to Unicode"
+      "description": "Change Font Setting to Second Font"
     }
   },
   "manifest_version": 2

@@ -4,13 +4,42 @@
 	<meta charset="UTF-8">
 	<title>Options for Extension</title>
 </head>
+<style>
+	#status{
+		color: green;
+	}
+	#usage{
+		width: 50%;
+		padding: 5px;
+		margin: 5px;
+	}
+</style>
 <body>
 	<div id="status"></div>
-	<label for="first-fonts">Font Name for First Shortcut(Default Ctrl+Shift+ 1)</label><br>
-	<select name="first-fonts" id="first-fonts"></select>
-	<label for="second-fonts">Font Name for Second Shortcut(Default Ctrl+Shift+ 1)</label><br>
-	<select name="second-fonts" id="second-fonts"></select>
-	<button id="save">Save</button>
+	<h1>Settings for oneclick-fontchanger</h1>
+	<div class="usage">
+		<h3>Usage for oneclick-fontchanger</h3>
+		<p>
+			You can use the keyboard shortcut <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>1</kbd> to change chrome's font settings to first font and <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>2</kbd> to change to second font. 
+			<p class="note">*** You can remap the key via <b>Keboard Shortcuts</b> button just below chrome's extensions page</p>
+		</p>
+	</div>
+	<div class="settings">
+	<h2>Settings</h2>
+		<fieldset>
+			<legend>
+				Font Name for First Shortcut(Default Ctrl+Shift+ 1)
+			</legend>
+			<select name="first-fonts" id="first-fonts"></select>		
+		</fieldset>
+		<fieldset>
+			<legend>
+				Font Name for Second Shortcut(Default Ctrl+Shift+ 1)
+			</legend>
+			<select name="second-fonts" id="second-fonts"></select>
+		</fieldset>
+		<button id="save">Save</button>
+	</div>
 	<script src="jquery.min.js"></script>
 	<script src="options.js"></script>
 </body>
