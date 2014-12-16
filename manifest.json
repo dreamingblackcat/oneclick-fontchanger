@@ -1,0 +1,35 @@
+{
+  "name": "Keyboard Pin",
+  "version": "0.1",
+  "description": "Creates a keyboard shortcut (Ctrl + ;) to toggle fonts",
+  "background": {
+    "persistent": true,
+    "scripts": [
+      "background.js"
+    ]
+   },
+   "permissions": [
+          "fontSettings",
+          "storage"
+    ],
+  "options_page": "options.html",
+  "commands": {
+    "to_zawgyi": {
+      "suggested_key": {
+        "windows": "Ctrl+Shift+U",
+        "mac": "Command+Shift+U",
+        "linux": "Ctrl+Shift+1"
+        },
+      "description": "Change Font Setting to Zawgyi"
+    },
+    "to_unicode": {
+      "suggested_key": {
+        "windows": "Ctrl+Shift+U",
+        "mac": "Command+Shift+U",
+        "linux": "Ctrl+Shift+2"
+        },
+      "description": "Change Font Setting to Unicode"
+    }
+  },
+  "manifest_version": 2
+}
