@@ -2,16 +2,13 @@
 // Use of this source code is governed by MIT license that can be
 // found in the LICENSE file.
 function save_options() {
-  console.log("starting save");
   var firstFontId = $('#first-fonts option:selected').val();
   var secondFontId = $('#second-fonts option:selected').val();
-  console.log(firstFontId);
   chrome.storage.sync.set({
     firstFontId: firstFontId,
     secondFontId: secondFontId
   }, function() {
     // Update status to let user know options were saved.
-    console.log("Saved!");
     $('#status').text('Options saved as '+ firstFontId + "and " + secondFontId); 
     setTimeout(function() {
       $('#status').text('');
@@ -24,8 +21,6 @@ function restore_last_selection() {
     'firstFontId': "Zawgyi-One",
     'secondFontId': "Noto Sans Myanmar"
   },function(items) {
-    alert("ITEMS THERE!");
-    console.log(items);
     $("#first-fonts option[value='"+items.firstFontId+"']").attr("selected",true);
     $("#second-fonts option[value='"+items.secondFontId+"']").attr("selected",true);
   });

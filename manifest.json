@@ -1,13 +1,19 @@
 {
   "name": "oneclick-fontchanger",
   "version": "0.1",
-  "description": "Let you switch between two fonts via keyboard shortcuts. For convnience,you can use 2 keyboard shortcuts(default Ctrl+Shift+1 and Ctrl+Shift+1). The extension was originally written to solve the problem of quickly changing between Zawgyi-One and Myanmar Unicode. Please feel free to post suggestion and comments.",
+  "description": "Let you switch between two fonts via keyboard shortcuts. For convnience,you can use 2 keyboard shortcuts(default Ctrl+Shift+1 and Ctrl+Shift+1).",
   "background": {
     "persistent": true,
     "scripts": [
       "background.js"
     ]
    },
+   "author": "dreamingblackcat",
+   "icons": { 
+          "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" 
+    },
    "permissions": [
           "fontSettings",
           "storage"
