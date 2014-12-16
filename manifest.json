@@ -14,18 +14,18 @@
     ],
   "options_page": "options.html",
   "commands": {
-    "to_zawgyi": {
+    "first_font": {
       "suggested_key": {
-        "windows": "Ctrl+Shift+U",
-        "mac": "Command+Shift+U",
+        "windows": "Ctrl+Shift+1",
+        "mac": "Command+Shift+1",
         "linux": "Ctrl+Shift+1"
         },
       "description": "Change Font Setting to Zawgyi"
     },
-    "to_unicode": {
+    "second_font": {
       "suggested_key": {
-        "windows": "Ctrl+Shift+U",
-        "mac": "Command+Shift+U",
+        "windows": "Ctrl+Shift+2",
+        "mac": "Command+Shift+2",
         "linux": "Ctrl+Shift+2"
         },
       "description": "Change Font Setting to Unicode"
