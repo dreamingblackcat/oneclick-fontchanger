@@ -5,6 +5,27 @@
 	<title>Options for Extension</title>
 </head>
 <style>
+	body{
+		background-color: #FFFFFF;
+		color: #333;
+	}
+	clearfix {
+	  *zoom: 1;
+	}
+   .clearfix:before, .clearfix:after {
+	    content: " ";
+	    display: table;
+	}
+   .clearfix:after {
+	    clear: both;
+	}
+	.first-select,.second-select{
+		float: left;
+		margin: 1em;
+	}
+	h1, h2, h3{
+		color: #F44336;
+	}
 	#status{
 		color: green;
 	}
@@ -13,33 +34,102 @@
 		padding: 5px;
 		margin: 5px;
 	}
+	ul.customize{
+		list-style: none;
+		width: 50%;
+	}
+
+	ul.customize li{
+		padding: .5em;
+		margin: .3em;
+		border-left: solid 2px #F44336;
+		background-color: #F8F6F5;
+		color: #F44336;
+	}
+	.settings{
+		min-height: 200px;
+	}
+	kbd{
+		font-size: 2em;
+		color: #F44336;
+		text-shadow: #F44336 2px 2px 2px;
+	}
+	#save{
+		background-color: #F44336;
+	}
+	img.setting{
+		width: 50px;
+		height: 50px;
+	}
+	button, .button {
+	  border-style: solid;
+	  border-width: 0px;
+	  cursor: pointer;
+	  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	  font-weight: normal;
+	  line-height: normal;
+	  margin: 0 0 1.25rem;
+	  position: relative;
+	  text-decoration: none;
+	  text-align: center;
+	  display: inline-block;
+	  padding-top: .5rem;
+	  padding-right: 2rem;
+	  padding-bottom: .6rem;
+	  padding-left: 2rem;
+	  font-size: 1rem;
+	  /*     @else                            { font-size: $padding - rem-calc(2); } */
+	  background-color: #008cba;
+	  border-color: #007295;
+	  color: white;
+	  -webkit-transition: background-color 300ms ease-out;
+	  -moz-transition: background-color 300ms ease-out;
+	  transition: background-color 300ms ease-out;
+	  padding-top: 1.0625rem;
+	  padding-bottom: 1rem;
+	  -webkit-appearance: none;
+	  border: none;
+	  font-weight: normal !important; }
+	  button:hover, button:focus, .button:hover, .button:focus {
+	    background-color: #007295; }
+	  button:hover, button:focus, .button:hover, .button:focus {
+	    color: white; }
+	    button.round, .button.round {
+    -webkit-border-radius: 1000px;
+    border-radius: 1000px; }
 </style>
 <body>
 	<div id="status"></div>
-	<h1>Settings for oneclick-fontchanger</h1>
+	<h1 class="setting-head">
+		<img src="settings.png" class="setting" alt="settings">
+		Settings for oneclick-fontchanger
+	</h1>
+	<div class="settings clearfix">
+		<div class="first-select">
+			<select name="first-fonts" id="first-fonts"></select>		
+		</div>
+		<div class="second-select">
+			<select name="second-fonts" id="second-fonts"></select>
+		</div>
+		<div class="submit-button">
+			<button id="save">Save</button>
+		</div>
+	</div>
 	<div class="usage">
 		<h3>Usage for oneclick-fontchanger</h3>
 		<p>
-			You can use the keyboard shortcut <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>1</kbd> to change chrome's font settings to first font and <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>2</kbd> to change to second font. 
-			<p class="note">*** You can remap the key via <b>Keboard Shortcuts</b> button just below chrome's extensions page</p>
+			You can use the keyboard shortcut <kbd>Ctrl</kbd>+<kbd>B</kbd> to change chrome's font settings to first font and <kbd>Alt</kbd>+<kbd>B</kbd> to change to second font. 
 		</p>
-	</div>
-	<div class="settings">
-	<h2>Settings</h2>
-		<fieldset>
-			<legend>
-				Font Name for First Shortcut(Default Ctrl+Shift+ 1)
-			</legend>
-			<select name="first-fonts" id="first-fonts"></select>		
-		</fieldset>
-		<fieldset>
-			<legend>
-				Font Name for Second Shortcut(Default Ctrl+Shift+ 1)
-			</legend>
-			<select name="second-fonts" id="second-fonts"></select>
-		</fieldset>
-		<button id="save">Save</button>
-	</div>
+		<p>
+		Don't like default shortcuts? Lucky for you! Chrome has built-in support for customizing shortcuts for extensions.
+		 <ul class="customize">
+		 	<li>Please go to extensions page.</li>
+		 	<li>You will see a link lower right corner of the page named "keyboard shortcuts".</li>
+		 	<li>Click on it. </li>
+		 	<li>Then find the oneclick-fontchanger and change the shortcuts.</li>
+		 </ul>  		 
+	</p>
+	</div>	
 	<script src="jquery.min.js"></script>
 	<script src="options.js"></script>
 </body>

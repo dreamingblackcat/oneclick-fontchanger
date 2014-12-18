@@ -26,7 +26,7 @@ and
 #Usage
 
 You can use the keyboard shortcut `Ctrl`+`Shift`+`1` to change chrome's font settings to first font and `Ctrl`+`Shift`+`2` to change to second font. 
-*** You can remap the key via __Keboard Shortcuts__ button just below chrome's extensions page
+*** You can remap the key via __Keboard Shortcuts__ link just below chrome's extensions page
 
 #Contribution
 
