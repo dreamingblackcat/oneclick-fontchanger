@@ -4,12 +4,15 @@
 	<meta charset="UTF-8">
 	<title>Options for Extension</title>
 </head>
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/selects.css">
 <style>
 	body{
 		background-color: #FFFFFF;
 		color: #333;
 		border-top: solid #F44336 4px;
 		margin: 0px;
+		padding-left: 20px;
 	}
 	clearfix {
 	  *zoom: 1;
@@ -21,10 +24,12 @@
    .clearfix:after {
 	    clear: both;
 	}
+	.setting-head{
+		font-size: 2.5em;
+	}
 	.first-select,.second-select{
 		float: left;
 		margin: 1em;
-		margin-top: -10px;
 	}
 	h1, h2, h3{
 		color: #F44336;
@@ -50,7 +55,7 @@
 		color: #F44336;
 	}
 	.settings{
-		min-height: 200px;
+		min-height: 80px;
 		width: 800px;
 		-webkit-border-radius: 4px;
 		-moz-border-radius: 4px;
@@ -74,7 +79,7 @@
 		float: left;
 	}
 	#status{
-		width:400px;
+		width:600px;
 		height: 30px;
 		margin:0 auto;
 		background-color: 
@@ -86,7 +91,7 @@
 	  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 	  font-weight: normal;
 	  line-height: normal;
-	  margin: 0 0 1.25rem;
+	  margin: 25px 0 1.25rem;
 	  position: relative;
 	  text-decoration: none;
 	  text-align: center;
@@ -121,12 +126,9 @@
     	box-shadow: none;
     }
 </style>
-<link rel="stylesheet" href="font-awesome.min.css">
-<link rel="stylesheet" href="selects.css">
 <body>
 	<div id="status"></div>
-	<h1 class="setting-head">
-		<img src="settings.png" class="setting" alt="settings">
+	<h1 class="setting-head fa fa-cogs">
 		Settings for oneclick-fontchanger
 	</h1>
 	<div class="settings clearfix">
@@ -161,7 +163,7 @@
 		 </ul>  		 
 	</p>
 	</div>	
-	<script src="jquery.min.js"></script>
-	<script src="options.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/options.js"></script>
 </body>
 </html>
