@@ -2,7 +2,7 @@
 
 #Description
 
-A chrome extension that lets you switch between two fonts via keyboard shortcuts. For convnience,you can use 2 keyboard shortcuts(default Ctrl+Shift+1 and Ctrl+Shift+1).
+A chrome extension that lets you switch between two fonts via keyboard shortcuts. For convnience,you can use 2 keyboard shortcuts(default Ctrl+B and Alt+B).
 
 The extension was originally written to solve the problem of quickly changing between Zawgyi-One and Myanmar Unicode. But you can change to any two fonts via options.
 
