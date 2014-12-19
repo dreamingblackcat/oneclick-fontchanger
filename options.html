@@ -8,6 +8,8 @@
 	body{
 		background-color: #FFFFFF;
 		color: #333;
+		border-top: solid #F44336 4px;
+		margin: 0px;
 	}
 	clearfix {
 	  *zoom: 1;
@@ -22,6 +24,7 @@
 	.first-select,.second-select{
 		float: left;
 		margin: 1em;
+		margin-top: -10px;
 	}
 	h1, h2, h3{
 		color: #F44336;
@@ -48,6 +51,10 @@
 	}
 	.settings{
 		min-height: 200px;
+		width: 600px;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
 	}
 	kbd{
 		font-size: 2em;
@@ -95,9 +102,11 @@
 	  button:hover, button:focus, .button:hover, .button:focus {
 	    color: white; }
 	    button.round, .button.round {
-    -webkit-border-radius: 1000px;
-    border-radius: 1000px; }
+    -webkit-border-radius: 6px;
+    border-radius: 6px; }
 </style>
+<link rel="stylesheet" href="font-awesome.min.css">
+<link rel="stylesheet" href="selects.css">
 <body>
 	<div id="status"></div>
 	<h1 class="setting-head">
@@ -106,10 +115,16 @@
 	</h1>
 	<div class="settings clearfix">
 		<div class="first-select">
-			<select name="first-fonts" id="first-fonts"></select>		
+			<div class="select_container">
+				<div class="fonts_for_select"></div>
+				<i class="fa fa-angle-down"></i>
+			</div>		
 		</div>
 		<div class="second-select">
-			<select name="second-fonts" id="second-fonts"></select>
+			<div class="select_container">
+				<div class="fonts_for_select"></div>
+				<i class="fa fa-angle-down"></i>
+			</div>
 		</div>
 		<div class="submit-button">
 			<button id="save">Save</button>
