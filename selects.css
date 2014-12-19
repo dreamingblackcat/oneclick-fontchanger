@@ -1,5 +1,5 @@
 	.select_container {
-		width: 200px;
+		width: 255px;
 		height: 50px;
 		margin: 10px 0 5px 10px;
 		background: #E24235;
@@ -20,9 +20,9 @@
 		font-family: "helvetica neue", arial;
 		position: relative;
 		cursor: pointer;
-		padding: 0px 15px;
+		padding: 0 0 0 15px;
 		line-height: 2em; 
-		width: 145px;
+		width: 215px;
 		background-position: 115px 9px;
 		background-size: 13px 13px;
 		margin-top: 8px;
@@ -52,7 +52,7 @@
 
 	.fonts_combo {
 		position: absolute;
-		width: 204px;
+		width: 255px;
 		max-height: 90px;
 		overflow-y: auto;
 		top: 43px;

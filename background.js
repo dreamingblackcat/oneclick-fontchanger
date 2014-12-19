@@ -5,6 +5,7 @@ function setFontSettings(storageKey){
 	
 	chrome.storage.sync.get(storageKey,function(items){
 		// Change Current Font Setting
+		console.log(items);
 		if(!items[storageKey]){
 			items[storageKey] = "Zawgyi-One"; //fall back to zawgyi if nothing in local storage 
 		}
