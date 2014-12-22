@@ -8,7 +8,7 @@ The extension was originally written to solve the problem of quickly changing be
 
 #Installation
 
-Preparing a host. Coming Soon. You can download or clone the repo and build it yourself via chrome extensions page.
+Currently Preparing a host for downloading. Coming Soon.For now,you can download or clone the repo and build it yourself via chrome extensions page.
 
 ###STEPS
 1. Open Chrome Settings.
@@ -25,7 +25,7 @@ and
 
 #Usage
 
-You can use the keyboard shortcut `Ctrl`+`Shift`+`1` to change chrome's font settings to first font and `Ctrl`+`Shift`+`2` to change to second font. 
+You can use the keyboard shortcut `Ctrl`+`B` to change chrome's font settings to first font and `Alt`+`B` to change to second font. 
 *** You can remap the key via __Keboard Shortcuts__ link just below chrome's extensions page
 
 #Contribution
