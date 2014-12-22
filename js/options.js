@@ -12,7 +12,7 @@ function save_options() {
     $('#status').text('Options saved as '+ firstFontId + " and " + secondFontId); 
     setTimeout(function() {
       $('#status').text('');
-    }, 750);
+    }, 1400);
   });
 }
 function first_selection_of($select, value){

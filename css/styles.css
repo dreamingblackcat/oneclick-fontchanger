@@ -17,6 +17,7 @@
 	}
 	.setting-head{
 		font-size: 2.5em;
+		margin: 10px;
 	}
 	.first-select,.second-select{
 		float: left;
@@ -59,6 +60,26 @@
 	}
 	#save{
 		background-color: #F44336;
+		transition: all ease-in 0.3s;
+	}
+	button#save:hover{
+		transition: all ease-in 0.3s;
+		background-color: #F8071A;
+		transform: scale(1.1);
+
+	}
+	span.app_name{
+		font-weight: bold;
+		color: rgba(245, 13, 13, 0.74)
+	}
+	.labels .label{
+		float: left;
+		width: 225px;
+		margin-left: 70px;
+		color: #F43336;
+		font-size: 1.2em;
+		font-weight: bold;
+		margin-bottom: -20px;
 	}
 	img.setting{
 		width: 50px;
@@ -73,7 +94,8 @@
 		width:600px;
 		height: 30px;
 		margin:0 auto;
-		background-color: 
+		float: right;
+		transition: all ease-out 0.75s;		
 	}
 	button, .button {
 	  border-style: solid;
@@ -128,6 +150,11 @@
 		color: #fff;
 		cursor: pointer;
 		box-shadow: 2px 2px 2px rgba(86, 24, 24, 0.4);
+		transition: all ease-in 0.3s;
+	}
+	.select_container:hover{
+		transition: all ease-in 0.3s;
+		transform: scale(1.1);
 	}
 
 	.fonts_for_select {
@@ -144,6 +171,7 @@
 		background-position: 115px 9px;
 		background-size: 13px 13px;
 		margin-top: 8px;
+		outline: none;
 	}
 
 	.option {
