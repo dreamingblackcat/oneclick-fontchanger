@@ -34,7 +34,7 @@
 	}
 	.label{
 		color:#F44336;
-		font-size: 1.5em;
+		font-size: 20px;
 		text-align: center;
 	}
 	#status{
@@ -72,7 +72,7 @@
 	#save{
 		background-color: #F44336;
 		transition: all ease-in 0.3s;
-		margin-top: 45px;
+		margin-top: 55px;
 	}
 	button#save:hover{
 		transition: all ease-in 0.3s;
