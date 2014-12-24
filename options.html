@@ -7,34 +7,35 @@
 <link rel="stylesheet" href="css/font-awesome.min.css">
 <link rel="stylesheet" href="css/styles.css">
 <body>
-	<h1 class="setting-head fa fa-cogs">
+	<div class="icon">
+		<img src="images/setting.png" alt="icon" width="100%" height="100%">
+	</div>
+	<h1 class="setting-head">
 		Settings for <span class="app_name">oneclick-fontchanger</span>
 	</h1>
-	<div class="labels clearfix">
-		<div class="label">
-			Choose for first font
-		</div>
-		<div class="label">
-			Choose for second font
-		</div>
-	</div>
 	<div class="settings clearfix">
 		<div class="first-select">
+			<div class="label">
+				Choose for first font
+			</div>
 			<div class="select_container">
 				<div class="fonts_for_select"></div>
-				<i class="fa fa-angle-down"></i>
+				<div class="arrow"></div>
 			</div>		
 		</div>
 		<div class="second-select">
+			<div class="label">
+				Choose for second font
+			</div>
 			<div class="select_container">
 				<div class="fonts_for_select"></div>
-				<i class="fa fa-angle-down"></i>
+				<div class="arrow"></div>
 			</div>
 		</div>
 		<div class="submit-button">
 			<button id="save">Save</button>
 		</div>
-	<div id="status"></div>
+		<div id="status"></div>
 	</div>
 	<div class="usage">
 		<h3>Usage for oneclick-fontchanger</h3>
@@ -42,14 +43,14 @@
 			You can use the keyboard shortcut <kbd>Ctrl</kbd>+<kbd>B</kbd> to change chrome's font settings to first font and <kbd>Alt</kbd>+<kbd>B</kbd> to change to second font. 
 		</p>
 		<p>
-		Don't like default shortcuts? Lucky for you! Chrome has built-in support for customizing shortcuts for extensions.
-		 <ul class="customize">
-		 	<li>Please go to extensions page.</li>
-		 	<li>You will see a link lower right corner of the page named "keyboard shortcuts".</li>
-		 	<li>Click on it. </li>
-		 	<li>Then find the oneclick-fontchanger and change the shortcuts.</li>
-		 </ul>  		 
-	</p>
+			Don't like default shortcuts? Lucky for you! Chrome has built-in support for customizing shortcuts for extensions.
+			<ul class="customize">
+				<li>Please go to extensions page.</li>
+				<li>You will see a link lower right corner of the page named "keyboard shortcuts".</li>
+				<li>Click on it. </li>
+				<li>Then find the oneclick-fontchanger and change the shortcuts.</li>
+			</ul>  		 
+		</p>
 	</div>	
 	<script src="js/jquery.min.js"></script>
 	<script src="js/options.js"></script>
