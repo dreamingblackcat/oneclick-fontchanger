@@ -35,3 +35,7 @@ Any kind of feedback or contribution is welcome.
 Pull Requests are better.
 
 I wouldn't mind getting a star though :)  .
+
+#License
+
+This software is licensed under MIT license. You can read it via the LICENSE file.
