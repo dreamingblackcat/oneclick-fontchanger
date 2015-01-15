@@ -20,7 +20,7 @@ Currently Preparing a host for downloading. Coming Soon.For now,you can download
 
 If there is any problem, post an isssue. :)
 	
->Note: For myanmar users who don't have Unicode font or Zawgyi Font. Here is download links:
+>Note: For myanmar users who don't have Unicode font or Zawgyi Font. Here are some download links:
    [Zawgyi One](http://zawgyi.googlecode.com/files/ZawgyiOne2008.ttf)
   , [Noto Sans Myanmar](https://www.google.com/get/noto/pkgs/NotoSansMyanmar-unhinted.zip) from google
   ,[Other Myanmar Unicode Fonts](http://www.myanmarlanguage.org/unicode/myanmar-fonts-which-follow-unicode-rules)
