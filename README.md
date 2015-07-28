@@ -5,8 +5,7 @@ A chrome extension that lets you switch between two fonts via keyboard shortcuts
 The extension was originally written to solve the problem of quickly changing between Zawgyi-One and Myanmar Unicode. But you can change to any two fonts via options.
 
 ## Installation
-
-Currently Preparing a host for downloading. Coming Soon.For now,you can download or clone the repo and build it yourself via chrome extensions page.
+You can download it on Chrome Web Store [here](https://chrome.google.com/webstore/detail/oneclick-fontchanger/lcibcnkknknmafeamdfcjlidodipfffe?hl=en)
 
 ### Steps
 1. Open Chrome Settings.
