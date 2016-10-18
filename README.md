@@ -36,8 +36,6 @@ You can use the keyboard shortcut `Ctrl`+`B` to change chrome's font settings to
   3. Commit your changes (`git commit -am 'Added some feature'`)
   4. Push to the branch (`git push origin my-new-feature`)
 
-I wouldn't mind getting a star though :wink:
-
 ## License
 
 This software is licensed under MIT license. You can read it via the LICENSE file.
